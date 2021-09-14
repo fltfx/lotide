@@ -25,7 +25,7 @@ let assertArraysEqual = function(array1, array2) {
   }
 };
 
-// //TEST CODE
+// //TEST CODE/
 // assertArraysEqual([1, 2, 3], [1, 2, 3]);
 // assertArraysEqual([1, 2, 3], [1, 2]); 
 // assertArraysEqual([1, 2, 3], [1, 2, 42]); 
