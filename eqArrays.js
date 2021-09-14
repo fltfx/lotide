@@ -21,10 +21,12 @@ let eqArrays = function(array1, array2) {
       //if the two elements at the same index do not match, return false
       return false;
     }
-    return true;
   }
+  return true;
 };
 //TEST Code
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
 assertEqual(eqArrays([1, 2, 3], [1, 2]), false); // => should PASS
+assertEqual(eqArrays([1, 27, 3], [1, 2, 3]), false); // => should PASS
 assertEqual(eqArrays([1, 2, 3], [1, 2, 42]), false); // => should PASS
+assertEqual(eqArrays([], [1, 2, 42]), false); // => should PASS
