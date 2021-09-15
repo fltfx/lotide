@@ -15,8 +15,9 @@ let eqArrays = function(array1, array2) {
   return true;
 };
 
-let assertArraysEqual = function(array1, array2) {
-  if (eqArrays(array1,array2)) {
+let assertArraysEqual = function(array1, array2) {   //OLD CODE: const assertEqual = function(actual, expected) {
+
+  if (eqArrays(array1,array2)) {    // OLD CODE: if (actual === expected) {
     //console.log("✅✅✅ Assertion Passed: " + actual + " === " + expected);
     console.log(`✅✅✅ Assertion Passed: ${array1} === ${array2}`);
   } else {
