@@ -25,7 +25,7 @@ let assertArraysEqual = function(array1, array2) {
   }
 };
 
-let without = function(source, itemsToRemove) {
+let middle = function(source, itemsToRemove) {
   let parsedArray = source;
   for (let i = 0; i < source.length; i++) {
     for (let j = 0; j < itemsToRemove.length; j++) {
