@@ -26,6 +26,9 @@ let assertArraysEqual = function(array1, array2) {   //OLD CODE: const assertEqu
   }
 };
 
+module.exports = { assertArraysEqual, eqArrays };
+
+
 // //TEST CODE/
 // assertArraysEqual([1, 2, 3], [1, 2, 3]);
 // assertArraysEqual([1, 2, 3], [1, 2]); 
