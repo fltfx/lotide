@@ -25,8 +25,8 @@ let results1 = findKey({
 }, x => x.stars === 2) // => "noma"
 
 
-const compare = require("./assertEqual");
-compare.assertEqual(results1, "noma");
+const assertEqual = require("./assertEqual");
+assertEqual(results1, "noma");
 
 //Test 2
 let results2 = findKey({
@@ -38,8 +38,8 @@ let results2 = findKey({
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 5) // => "noma"
 
-compare.assertEqual(results2, undefined);
+assertEqual(results2, undefined);
 
-module.exports = { findKey };
+module.exports =  findKey;
 
 

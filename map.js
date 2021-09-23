@@ -45,3 +45,5 @@ console.log(results1);
 // assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
 // assertArraysEqual(map(words, word => word.concat("Elephant")), ["groundElephant", "controlElephant", "toElephant", "majorElephant", "tomElephant"]);
 // assertArraysEqual(map(words, word => 27), [27, 27, 27, 27, 27]);
+
+module.exports = map;

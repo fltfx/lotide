@@ -28,6 +28,8 @@ console.log(results2);
 */
 
 //Test 2
-const compare = require("./assertArraysEqual");
-compare.assertArraysEqual(results1, [ 1, 2, 5, 7, 2 ]);
-compare.assertArraysEqual(results2, [ 'I\'ve', 'been', 'to', 'Hollywood' ]);
+const assertArraysEqual = require("./assertArraysEqual");
+assertArraysEqual(results1, [ 1, 2, 5, 7, 2 ]);
+assertArraysEqual(results2, [ 'I\'ve', 'been', 'to', 'Hollywood' ]);
+
+module.exports = takeUntil;

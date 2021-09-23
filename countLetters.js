@@ -30,3 +30,5 @@ assertEqual(countLetters("LHL").L, 2);
 assertEqual(countLetters("LHL").H, 1);
 console.log(countLetters("LHL"));
 console.log(countLetters("lighthouse in the house"));
+
+module.exports = countLetters;

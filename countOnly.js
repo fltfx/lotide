@@ -46,3 +46,5 @@ assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
 assertEqual(result1["Agouhanna"], undefined);
 assertEqual(result1["Salima"], 2);
+
+module.exports = countOnly;
